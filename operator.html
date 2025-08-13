@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exercise</title>
+</head>
+<body>
+    <p>This is a JS exercise</p>
+
+    <script>
+        let ans = prompt("Enter the first number");
+        let ans1 = prompt("Enter the second number");
+        let ans2 = prompt("Enter the operator (+, -, *, /)");
+
+        let num1 = Number(ans);
+        let num2 = Number(ans1);
+        let r;
+
+        switch(ans2) {
+            case '+':
+                r = num1 + num2;
+                break;
+            case '-':
+                r = num1 - num2;
+                break;
+            case '*':
+                r = num1 * num2;
+                break;
+            case '/':
+                r =  num1 / num2 ;
+                break;
+            default:
+                r = "apppropriate operator";
+        }
+            document.write("First number:\n"+num1+"First number:\n"+num2+"\n answer="+r);
+    </script>
+</body>
+</html>

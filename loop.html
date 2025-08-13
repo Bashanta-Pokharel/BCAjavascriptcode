@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exercise</title>
+</head>
+<body>
+    <p>This is a JS exercise</p>
+
+
+    <script>
+
+        let another= true;
+        let sum = 0;
+
+        while(another) {
+            let ans = prompt("enter a number to add to the sum:");
+            let num1 = Number(ans);
+            sum = sum + num1; 
+
+            another = confirm("addmore");
+        } 
+        document.write("sum="+sum);
+    </script>
+</body>
+</html>
